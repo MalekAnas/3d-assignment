@@ -145,3 +145,26 @@ header {
   }
 }
 /* End of mission */
+
+/* Collection */
+.card-shadow {
+  box-shadow: 10px 12px 20px #444;
+}
+
+.heading {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  font-size: 13px;
+  letter-spacing: 3px;
+  background-color: #222;
+  width: 80%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.heading:hover {
+  opacity: 1;
+}
+/* end of collection */
