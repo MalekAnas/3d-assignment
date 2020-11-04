@@ -10,6 +10,51 @@ header {
     url(/images/header-img.jpeg) no-repeat center center / cover;
 }
 /* Navbar */
+.nav-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+  padding: 30px;
+
+  transition: all 0.7s;
+}
+
+.menu-item {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+  transition: color 0.7s;
+}
+
+.menu-item:hover {
+  color: coral;
+}
+
+.nav-active {
+  color: #5cb3e6;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: all 0.6s;
+}
+
+.change .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .line2 {
+  opacity: 0;
+}
+.change .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.custom-navbar {
+  padding: 5px 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+}
 /* End of Navbar */
 
 /* Banner */
