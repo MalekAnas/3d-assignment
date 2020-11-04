@@ -110,4 +110,38 @@ header {
   border: 1px solid lightblue;
   margin: auto;
 }
+
+@keyframes fl-anim {
+  0% {
+    transform: translateX(-120px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.from-left {
+  animation-name: fl-anim;
+  animation-duration: 3s;
+}
+
+.from-right {
+  animation-name: fr-anim;
+  animation-duration: 3s;
+}
+
+@keyframes fr-anim {
+  0% {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 /* End of mission */
