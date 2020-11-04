@@ -107,7 +107,7 @@ header {
 
 .underline {
   width: 150px;
-  border: 1px solid lightblue;
+  border: 1px solid rgb(255, 255, 255);
   margin: auto;
 }
 
@@ -168,3 +168,18 @@ header {
   opacity: 1;
 }
 /* end of collection */
+
+/* Gallery */
+.underline-dark {
+  width: 150px;
+  border: 1px solid rgb(94, 94, 97);
+  margin: auto;
+}
+
+.gallery-list-item {
+  color: #777;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* end of gallery */
