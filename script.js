@@ -29,7 +29,7 @@ $(window).scroll(function(){
   let position = $(this).scrollTop();
   console.log(position);
 
-  if(position >= 650){
+  if(position >=200){
    $('.camera-img').addClass('from-left');
    $('.mission-text').addClass('from-right');
   }
