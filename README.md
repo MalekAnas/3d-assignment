@@ -73,3 +73,11 @@ The website contains the following html static pages:
 ---
 
 ## This website is made using [Bootstrap 4.5](https://getbootstrap.com/), [HTML5](https://developer.mozilla.org/en-US/docs/Learn/HTML) , [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) and [jQuery](https://jquery.com/).
+
+
+
+
+## ![Image of Main](./images/AutumnX-page.png)
+
+
+## ![Image of mission](./images/mission.png)
