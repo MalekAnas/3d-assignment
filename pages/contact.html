@@ -22,13 +22,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
-      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
-      crossorigin="anonymous"
-    ></script> -->
-
     <!-- Montserrat font from Google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -71,117 +64,111 @@
             </li>
 
             <li class="nav-item">
-              <a href="mission.html" class="nav-link m-2 menu-item">Mission</a>
+              <a href="/pages/mission.html" class="nav-link m-2 menu-item"
+                >Mission</a
+              >
             </li>
             <li class="nav-item">
-              <a href="collection.html" class="nav-link m-2 menu-item"
+              <a href="/pages/collection.html" class="nav-link m-2 menu-item"
                 >Collection</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="/gallery.html" class="nav-link m-2 menu-item">Gallery</a>
+              <a href="/pages/gallery.html" class="nav-link m-2 menu-item"
+                >Gallery</a
+              >
             </li>
 
             <li class="nav-item">
-              <a href="customers.html" class="nav-link m-2 menu-item"
+              <a href="/pages/customers.html" class="nav-link m-2 menu-item"
                 >Customers</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="pricing.html" class="nav-link m-2 menu-item">Pricing</a>
+              <a href="/pages/pricing.html" class="nav-link m-2 menu-item"
+                >Pricing</a
+              >
             </li>
 
             <li class="nav-item">
-              <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+              <a href="/pages/contact.html" class="nav-link m-2 menu-item"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </nav>
 
       <!-- End of Navbar -->
+      <!-- End of Navbar -->
     </header>
     <!-- End of header -->
 
-    <div class="container-fluid bg-dark">
-      <!-- Mission -->
+    <div class="container-fluid bg-light">
+      <!-- Contact -->
 
-      <section class="p-5 mission">
+      <section class="contact p-5 text-light">
         <div class="container-fluid">
-          <!-- Title -->
-          <div class="row text-white text-center">
-            <div class="col m-4">
-              <h1 class="display-4 m-4">Our mission</h1>
-              <div class="underline mb-4"></div>
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tempore, numquam ipsum, provident deleniti maxime, est
-                voluptatum dolor esse nam unde similique ad fugiat assumenda
-                quis.
-              </p>
-            </div>
-          </div>
-          <!-- end of title -->
+          <div class="row">
+            <div class="col-lg-5 pb-5">
+              <h3 class="display-4 mb-5">Join us!</h3>
 
-          <div class="row my-5">
-            <div class="col-md-4 text-center">
-              <i class="fas fa-cogs fa-4x text-danger mb-4"> </i>
-              <h1 class="mb-4 text-white">Creativity</h1>
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-                vero! Ratione quod ex libero eius praesentium cumque, nisi
-                commodi rerum consequuntur quisquam, eos nulla officiis.
-              </p>
-            </div>
-            <div class="col-md-4 text-center">
-              <i class="far fa-thumbs-up fa-4x text-danger mb-4"> </i>
-              <h1 class="mb-4 text-white">Quality</h1>
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-                vero! Ratione quod ex libero eius praesentium cumque, nisi
-                commodi rerum consequuntur quisquam, eos nulla officiis.
-              </p>
-            </div>
-            <div class="col-md-4 text-center">
-              <i class="far fa-handshake fa-4x text-danger mb-4"> </i>
-              <h1 class="mb-4 text-white">Experience</h1>
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-                vero! Ratione quod ex libero eius praesentium cumque, nisi
-                commodi rerum consequuntur quisquam, eos nulla officiis.
-              </p>
-            </div>
-          </div>
-        </div>
+              <form
+                id="contact-form"
+                action="#"
+                name="contact-form"
+                class="contact-form"
+                novalidate
+              >
+                <div class="input-group mb-5">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="form-control p-2 input"
+                    id="name"
+                    class="name"
+                    name="name"
+                    required=""
+                    autocomplete="off"
+                  />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
 
-        <div class="container">
-          <div class="row alighn-items-center">
-            <div class="col-lg-5 text-center">
-              <img
-                class="img-fluid camera-img"
-                src="/images/camera.png"
-                alt=""
-                width="350"
-              />
-            </div>
-            <div
-              class="col-lg-7 text-white text-lg-right text-center mission-text"
-            >
-              <h1 class="">We make the picture</h1>
-              <p class="lead">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Deserunt sunt illum cum quos distinctio obcaecati ipsum eius
-                quisquam fugit. Odit hic dolorum amet dicta modi rem, saepe
-                perspiciatis dolor deserunt architecto doloribus necessitatibus
-                dignissimos ipsum repellat nobis, fuga autem delectus! Deleniti
-                eum, officiis aperiam dolore fugit vel possimus aut repellat.
-              </p>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="email"
+                    id="email"
+                    name="email"
+                    class="form-control p-2 input email"
+                    required=""
+                    autocomplete="off"
+                  />
+
+                  <div class="invalid-feedback">
+                    Please enter a valid email adress.
+                  </div>
+                </div>
+
+                <div class="form-group py-4 my-4">
+                  <input type="checkbox" checked class="" />
+                  <label for="check">Get notifications?</label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-block p-2 font-weight-bold text-uppercase sub-btn"
+                >
+                  Subscribe
+                </button>
+              </form>
             </div>
           </div>
         </div>
       </section>
-      <!-- End of Mission -->
+      <!-- end of contact -->
     </div>
 
     <!-- Footer -->
@@ -333,7 +320,16 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- jQuery Validator -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+      integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+      crossorigin="anonymous"
+    ></script>
     <!-- My custom js script -->
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
+
+    <!-- form Validation with jQuery validator -->
+    <script src="/js/validation.js"></script>
   </body>
 </html>
