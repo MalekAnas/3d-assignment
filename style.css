@@ -247,9 +247,98 @@ header {
 /* end of Customers */
 
 /* Pricing */
-.card-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6))
-    url(/images/family.jpeg) center no-repeat / cover;
+.card-con {
+  padding: 3em;
+  background-color: #264653;
+}
+.card-1,
+.card-2,
+.card-3 {
+  max-width: 75%;
+  min-width: 45%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(/images/pricing-card-bg.jpeg) no-repeat center center / cover;
+  box-shadow: 7px 20px 50px rgba(0, 0, 0, 0.2);
+}
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  box-shadow: 7px 20px 50px rgba(100, 93, 126, 0.2);
+  transition: all 0.6s;
+}
+
+.card-list-item {
+  color: white;
+  border-bottom: 0.5px groove white;
+  width: 50%;
+  margin: auto;
+}
+.price-card-button {
+  color: white;
+  background: #f4a261;
+  width: 60%;
+  margin: auto;
+  border-radius: 2em;
+  box-shadow: 1px 1px 90px #feffff;
+  transition: all 0.3s;
+}
+
+.price-card-button:hover {
+  color: rgb(34, 1, 1);
+  background: #e76f51;
+  width: 62%;
+  margin: auto;
+  border-radius: 2em;
+  transform: translateY(-2px);
+  box-shadow: none;
+}
+
+.move-from-left {
+  animation: movefromleft 1.5s;
+}
+
+.move-from-right {
+  animation: movefromright 1.5s;
+}
+
+.move-from-buttom {
+  animation: movefrombuttom 1.5s;
+}
+
+@keyframes movefromleft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes movefromright {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes movefrombuttom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /* end of pricing */

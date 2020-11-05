@@ -61,6 +61,31 @@ $('.gallery-list-item').click(function(){
 });
 
 
+
+
+
+
+ //sliding effect for the pricing 
+ $(window).scroll(function() {
+
+  let position = $(this).scrollTop();
+  console.log(position);
+
+  if(position >=120){
+   $('.card-1').addClass('move-from-left');
+   $('.card-3').addClass('move-from-right');
+   $('.card-2').addClass('move-from-buttom');
+
+  }
+  else{
+   $('.card-1').removeClass('move-from-left');
+   $('.card-3').removeClass('move-from-right');
+   $('.card-2').removeClass('move-from-buttom');
+
+   
+  }
+ })
+
 });
 
 
