@@ -26,7 +26,17 @@ ett initialt möte med kunden och kommit fram till följande kravspecifikation. 
     - Ett nyhetsflöde med ett antal nyheter (presenteras med flexbox).
 
   - [ ] Kontaktsida:
+    - Kontaktfomulär (ifyllt formulär skickas till valfri email)
+      - Namn. :+1:
+      - Email. :+1:
+      - Ämne.
 
+    - Skall ha någon form av validering.
+
+    
   - [ ] Galleri-sida:
+    - Galleri med bilder med tillhörande text (exempelvis produkter eller anställda).
+    - Presenteras med CSS-grid eller flexblox.
 
   - [ ] Valfri sida:
+    - Valfritt innehåll.
