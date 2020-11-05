@@ -40,3 +40,26 @@ ett initialt möte med kunden och kommit fram till följande kravspecifikation. 
 
   - [ ] Valfri sida:
     - Valfritt innehåll.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+## Project content:
+
+
+   Pages     | Content
+------------ | -------------
+index.html | Content from cell 2
+Mission.html | Content in the second column
+Collection.html | Content in the second column
+Gallery.html | Content in the second column
+Pricing.html | Content in the second column
+Contact.html | Content in the second column
