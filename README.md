@@ -51,7 +51,13 @@ ett initialt möte med kunden och kommit fram till följande kravspecifikation. 
 
 I tried to use a color pallette that is inspired by autumn session, pallette:
 
-![Image of Pallette](./images/AutumnX.png)
+## ![Image of Pallette](./images/AutumnX.png)
+
+---
+
+### Pages:
+
+The website contains the following html static pages:
 
 | Pages           | Content                                                                                             |
 | --------------- | --------------------------------------------------------------------------------------------------- |
