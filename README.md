@@ -57,8 +57,8 @@ ett initialt möte med kunden och kommit fram till följande kravspecifikation. 
 
    Pages     | Content
 ------------ | -------------
-index.html | Content from cell 2
-Mission.html | Content in the second column
+index.html | A landing page with a heading and paragraph to tell about the agency.
+Mission.html | What is the vision of the agnecy, ```<p> with an <img/>``` with slide effect done using jQuery.
 Collection.html | Content in the second column
 Gallery.html | Content in the second column
 Pricing.html | Content in the second column
