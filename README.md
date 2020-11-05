@@ -8,9 +8,23 @@ ett initialt möte med kunden och kommit fram till följande kravspecifikation. 
 
 - #### Navigation:
 
-  - [x] Navigationsmeny skall synas på alla sidor.
-  - [x] Navigationmeny skall skall förändras på mobila enheter (exempelvis en hamburgermeny).
-  - [x] På Desktop skall det visas tydligt visuellt att man kan klicka på länkarna.
+  - [ ] Navigationsmeny skall synas på alla sidor.
+  - [ ] Navigationmeny skall skall förändras på mobila enheter (exempelvis en hamburgermeny).
+  - [ ] På Desktop skall det visas tydligt visuellt att man kan klicka på länkarna.
 
 
-  
+
+- #### Footer:
+
+  - [ ] Skall synas på samtliga sidor.
+  - [ ] Innehålla - Address, telefon.
+  - [ ] Innehålla - Sociala medier (bilder som länkar vidare).
+
+
+
+
+
+
+
+
+
