@@ -67,3 +67,9 @@ The website contains the following html static pages:
 | Gallery.html    | Gallery to show some pictures, the pictures uploaded are taken by me in Kna town centrum in autmun. |
 | Pricing.html    | Page that shows payments plans and prices.                                                          |
 | Contact.html    | Contact form, meant to be a form to submit interest in newsletters.                                 |
+
+---
+
+---
+
+## This website is made using [Bootstrap 4.5](https://getbootstrap.com/), HTML5, css3 and jQuery.
