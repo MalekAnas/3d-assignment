@@ -39,12 +39,12 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Page title -->
-    <title>Mission</title>
+    <title>AutumnX</title>
   </head>
 
   <body>
     <!-- Header -->
-    <header class="header-sub-page">
+    <header class="header-sub-page-none">
       <!-- Navbar -->
       <nav
         class="navbar navbar-expand-lg fixed-top nav-menu text-light text-uppercase"
@@ -71,38 +71,30 @@
             </li>
 
             <li class="nav-item">
-              <a href="/pages/mission.html" class="nav-link m-2 menu-item"
-                >Mission</a
-              >
+              <a href="/mission.html" class="nav-link m-2 menu-item">Mission</a>
             </li>
             <li class="nav-item">
-              <a href="/pages/collection.html" class="nav-link m-2 menu-item"
+              <a href="/collection.html" class="nav-link m-2 menu-item"
                 >Collection</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="/pages/gallery.html" class="nav-link m-2 menu-item"
-                >Gallery</a
-              >
+              <a href="/gallery.html" class="nav-link m-2 menu-item">Gallery</a>
             </li>
 
             <li class="nav-item">
-              <a href="/pages/customers.html" class="nav-link m-2 menu-item"
+              <a href="/customers.html" class="nav-link m-2 menu-item"
                 >Customers</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="/pages/pricing.html" class="nav-link m-2 menu-item"
-                >Pricing</a
-              >
+              <a href="/pricing.html" class="nav-link m-2 menu-item">Pricing</a>
             </li>
 
             <li class="nav-item">
-              <a href="/pages/contact.html" class="nav-link m-2 menu-item"
-                >Contact</a
-              >
+              <a href="/contact.html" class="nav-link m-2 menu-item">Contact</a>
             </li>
           </ul>
         </div>
@@ -112,14 +104,13 @@
     </header>
     <!-- End of header -->
 
-    <div class="row card-con">
-      <div class="container-fluid">
-        <!-- pricing -->
-
+    <!-- Gallery -->
+    <section class="bg-light py-5">
+      <div class="container fluid">
         <!-- Title -->
-        <div class="row text-light text-center">
+        <div class="row text-muted text-center">
           <div class="col m-4">
-            <h1 class="display-4 m-4">Our Plans</h1>
+            <h1 class="display-4 m-4">Gallery</h1>
             <div class="underline-dark mb-4"></div>
             <p class="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
@@ -130,84 +121,93 @@
         </div>
         <!-- end of title -->
 
-        <!-- end of pricing -->
-      </div>
-    </div>
-
-    <div class="row card-con">
-      <div class="col-lg-4 text-center py-3">
-        <div class="card card-1 py-4 mx-auto">
-          <h5 class="text-uppercase font-weight-bold mb-5 text-white">
-            Monthly plan
-          </h5>
-          <h1 class="display-4 text-light">
-            <i class="fas fa-dollar-sign text-light"></i>
-            19.99
-          </h1>
-          <ul class="list-unstyled">
-            <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
-            <li class="font-weight-bold py-3 card-list-item">Graphic design</li>
-            <li class="font-weight-bold py-3 card-list-item">Photo sessions</li>
-            <li class="font-weight-bold py-3 card-list-item">Montage</li>
-          </ul>
-          <a
-            href="#"
-            class="btn p-2 text-uppercase font-weight-bold price-card-button"
-            >Sign-up</a
+        <ul
+          class="list-inline text-center text-uppercase font-weight-bold my-4"
+        >
+          <li class="list-inline-item gallery-list-item" data-filter="All">
+            All <span class="mx-3 mx-md-5 text-muted">/</span>
+          </li>
+          <li class="list-inline-item gallery-list-item" data-filter="Detailed">
+            Detailed <span class="mx-3 mx-md-5 text-muted">/</span>
+          </li>
+          <li
+            class="list-inline-item gallery-list-item"
+            data-filter="Landscape"
           >
+            Landscape<span class="mx-3 mx-md-5 text-muted">/</span>
+          </li>
+          <li class="list-inline-item gallery-list-item" data-filter="New">
+            New
+          </li>
+        </ul>
+
+        <div class="container-fluid">
+          <div class="d-flex flex-wrap justify-content-center">
+            <!-- gallery img -->
+            <div class="filter Landscape">
+              <img src="/images/kna-aut8.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+
+            <!-- gallery img -->
+            <div class="filter Detailed">
+              <img src="/images/kna-aut9.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter New">
+              <img src="/images/kna-ls.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter Landscape">
+              <img src="/images/kna-ls2.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter Landscape">
+              <img src="/images/kna-aut.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter Landscape">
+              <img src="/images/kna-ls3.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter Detailed">
+              <img src="/images/kna-aut11.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter Detailed">
+              <img src="/images/kna-aut5.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter Detailed">
+              <img src="/images/kna-aut6.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter New">
+              <img src="/images/kna-aut7.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter New">
+              <img src="/images/kna-aut9.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+            <!-- gallery img -->
+            <div class="filter New">
+              <img src="/images/kna-aut3.jpg" width="300" alt="" />
+            </div>
+            <!-- end of gallery img -->
+          </div>
         </div>
       </div>
-
-      <div class="col-lg-4 text-center py-3">
-        <div class="card card-2 py-4 mx-auto">
-          <h5 class="text-uppercase font-weight-bold mb-5 text-white">
-            Unlimitid access
-          </h5>
-          <h1 class="display-4 text-light">
-            <i class="fas fa-dollar-sign text-light"></i>
-            999.99
-          </h1>
-          <ul class="list-unstyled">
-            <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
-            <li class="font-weight-bold py-3 card-list-item">Graphic design</li>
-            <li class="font-weight-bold py-3 card-list-item">Photo sessions</li>
-            <li class="font-weight-bold py-3 card-list-item">Montage</li>
-            <li class="font-weight-bold py-3 card-list-item">Photo makeup</li>
-            <li class="font-weight-bold py-3 card-list-item">
-              3 free sessions
-            </li>
-          </ul>
-          <a
-            href="#"
-            class="btn p-2 text-uppercase font-weight-bold price-card-button"
-            >Sign-up</a
-          >
-        </div>
-      </div>
-
-      <div class="col-lg-4 text-center py-3">
-        <div class="card card-3 py-4 mx-auto">
-          <h5 class="text-uppercase font-weight-bold mb-5 text-white">
-            Annualy plan
-          </h5>
-          <h1 class="display-4 text-light">
-            <i class="fas fa-dollar-sign text-light"></i>
-            499.99
-          </h1>
-          <ul class="list-unstyled">
-            <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
-            <li class="font-weight-bold py-3 card-list-item">Graphic design</li>
-            <li class="font-weight-bold py-3 card-list-item">Photo sessions</li>
-            <li class="font-weight-bold py-3 card-list-item">Montage</li>
-          </ul>
-          <a
-            href="#"
-            class="btn p-2 text-uppercase font-weight-bold price-card-button"
-            >Sign-up</a
-          >
-        </div>
-      </div>
-    </div>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-dark px-5">
@@ -358,7 +358,7 @@
       crossorigin="anonymous"
     ></script>
 
-     <!-- My custom js script -->
+    <!-- My custom js script -->
     <script src="/js/script.js"></script>
   </body>
 </html>

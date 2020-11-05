@@ -22,6 +22,13 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+      crossorigin="anonymous"
+    ></script> -->
+
     <!-- Montserrat font from Google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -32,12 +39,12 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Page title -->
-    <title>Mission</title>
+    <title>Customers</title>
   </head>
 
   <body>
     <!-- Header -->
-    <header class="header-sub-page">
+    <header class="header-sub-page-none">
       <!-- Navbar -->
       <nav
         class="navbar navbar-expand-lg fixed-top nav-menu text-light text-uppercase"
@@ -64,111 +71,168 @@
             </li>
 
             <li class="nav-item">
-              <a href="/pages/mission.html" class="nav-link m-2 menu-item"
-                >Mission</a
-              >
+              <a href="/mission.html" class="nav-link m-2 menu-item">Mission</a>
             </li>
             <li class="nav-item">
-              <a href="/pages/collection.html" class="nav-link m-2 menu-item"
+              <a href="/collection.html" class="nav-link m-2 menu-item"
                 >Collection</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="/pages/gallery.html" class="nav-link m-2 menu-item"
-                >Gallery</a
-              >
+              <a href="/gallery.html" class="nav-link m-2 menu-item">Gallery</a>
             </li>
 
             <li class="nav-item">
-              <a href="/pages/customers.html" class="nav-link m-2 menu-item"
+              <a href="/customers.html" class="nav-link m-2 menu-item"
                 >Customers</a
               >
             </li>
 
             <li class="nav-item">
-              <a href="/pages/pricing.html" class="nav-link m-2 menu-item"
-                >Pricing</a
-              >
+              <a href="/pricing.html" class="nav-link m-2 menu-item">Pricing</a>
             </li>
 
             <li class="nav-item">
-              <a href="/pages/contact.html" class="nav-link m-2 menu-item"
-                >Contact</a
-              >
+              <a href="/contact.html" class="nav-link m-2 menu-item">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <!-- End of Navbar -->
-      <!-- End of Navbar -->
     </header>
     <!-- End of header -->
 
-    <div class="container-fluid bg-light">
-      <!-- Contact -->
+    <div class="container-fluid bg-dark">
+      <!-- Customers -->
 
-      <section class="contact p-5 text-light">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-5 pb-5">
-              <h3 class="display-4 mb-5">Join us!</h3>
+      <section class="p-5 customers">
+        <!-- Title -->
+        <div class="row text-white text-center">
+          <div class="col m-4">
+            <h1 class="display-4 m-4">Happy Customers</h1>
+            <div class="underline mb-4"></div>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              numquam ipsum, provident deleniti maxime, est voluptatum dolor
+              esse nam unde similique ad fugiat assumenda quis.
+            </p>
+          </div>
+        </div>
+        <!-- end of title -->
 
-              <form
-                id="contact-form"
-                action="#"
-                name="contact-form"
-                class="contact-form"
-                novalidate
-              >
-                <div class="input-group mb-5">
-                  <input
-                    type="text"
-                    placeholder="Name"
-                    class="form-control p-2 input"
-                    id="name"
-                    class="name"
-                    name="name"
-                    required=""
-                    autocomplete="off"
+        <!-- Carousel-->
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <div
+              class="carousel slide"
+              data-ride="carousel"
+              id="cusomer-carousel"
+            >
+              <ol class="carousel-indicators">
+                <li data-target="#cusomer-carousel" data-slide-to="0"></li>
+                <li data-target="#cusomer-carousel" data-slide-to="1"></li>
+                <li data-target="#cusomer-carousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner">
+                <!-- cusomer -->
+                <div class="carousel-item active text-center">
+                  <img
+                    src="/images/customers21.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle m-5"
+                    width="150"
                   />
-                  <div class="invalid-feedback">Please enter your name.</div>
-                </div>
 
-                <div class="input-group">
-                  <input
-                    type="email"
-                    placeholder="email"
-                    id="email"
-                    name="email"
-                    class="form-control p-2 input email"
-                    required=""
-                    autocomplete="off"
+                  <blockquote>
+                    <p class="mb-5 x">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nobis, accusantium neque deleniti eos et eum cupiditate
+                      enim veniam officia aliquid id doloribus unde, eaque nemo.
+                    </p>
+                  </blockquote>
+
+                  <h5 class="text-ligt text-uppercase font-weight-bold mb-3">
+                    Victor & Eva
+                  </h5>
+                  <ul class="lint-inline mb-5">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </ul>
+                </div>
+                <!-- end of cusomer -->
+
+                <!-- cusomer -->
+                <div class="carousel-item text-center">
+                  <img
+                    src="/images/customers22.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle m-5"
+                    width="150"
                   />
 
-                  <div class="invalid-feedback">
-                    Please enter a valid email adress.
-                  </div>
-                </div>
+                  <blockquote>
+                    <p class="mb-5 x">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nobis, accusantium neque deleniti eos et eum cupiditate
+                      enim veniam officia aliquid id doloribus unde, eaque nemo.
+                    </p>
+                  </blockquote>
 
-                <div class="form-group py-4 my-4">
-                  <input type="checkbox" checked class="" />
-                  <label for="check">Get notifications?</label>
+                  <h5 class="text-ligt text-uppercase font-weight-bold mb-3">
+                    Maria
+                  </h5>
+                  <ul class="lint-inline mb-5">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </ul>
                 </div>
+                <!-- end of cusomer -->
 
-                <button
-                  type="submit"
-                  class="btn btn-block p-2 font-weight-bold text-uppercase sub-btn"
-                >
-                  Subscribe
-                </button>
-              </form>
+                <!-- cusomer -->
+                <div class="carousel-item text-center">
+                  <img
+                    src="/images/customers23.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle m-5"
+                    width="300"
+                  />
+
+                  <blockquote>
+                    <p class="mb-5 x">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nobis, accusantium neque deleniti eos et eum cupiditate
+                      enim veniam officia aliquid id doloribus unde, eaque nemo.
+                    </p>
+                  </blockquote>
+
+                  <h5 class="text-ligt text-uppercase font-weight-bold mb-3">
+                    Willson Family
+                  </h5>
+                  <ul class="lint-inline mb-5">
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                    <i class="fas fa-star text-warning"></i>
+                  </ul>
+                </div>
+                <!-- end of cusomer -->
+              </div>
             </div>
           </div>
         </div>
+        <!-- end of carousel -->
       </section>
-      <!-- end of contact -->
+      <!-- end of Customers -->
     </div>
 
     <!-- Footer -->
@@ -320,16 +384,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- jQuery Validator -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
-      integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
-      crossorigin="anonymous"
-    ></script>
     <!-- My custom js script -->
     <script src="/js/script.js"></script>
-
-    <!-- form Validation with jQuery validator -->
-    <script src="/js/validation.js"></script>
   </body>
 </html>
