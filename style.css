@@ -117,10 +117,11 @@ header {
 /* Side newsfeed */
 
 .newsfeed {
-  padding: 1em;
+  border-radius: 8px;
+  padding: 3em;
   height: 80vh;
   width: 30vh;
-  background: #08685c;
+  background: #e76f5141;
   position: absolute;
   float: left;
   overflow-y: scroll;
@@ -136,30 +137,29 @@ header {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 1400px) {
   .newsfeed {
-    padding: 1em;
+    padding: 2em;
+    height: 80vh;
+    width: 40vh;
+    background: #e76f5146;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .newsfeed {
+    padding: 3em;
     height: 80vh;
     width: 10vh;
-    background: #08685c;
-
+    background: #e76f5146;
+    display: none;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
 }
 
-@media only screen and (max-width: 1200) {
-  .newsfeed {
-    padding: 1em;
-    height: 60vh;
-    width: 100vh;
-    background: #08685c;
-    overflow-y: scroll;
-
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-}
 /* end of Side newsfeed */
 
 /* Mission */
