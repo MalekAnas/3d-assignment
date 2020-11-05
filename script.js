@@ -86,7 +86,59 @@ $('.gallery-list-item').click(function(){
   }
  })
 
+
+
+ $('.name').on("change paste keyup focus submit", function() {
+
+    
+
+
+  var minCharName = 3;
+
+  let namelength = $(this).val().length;
+  if(namelength > 5  ){
+   console.log( namelength + " >>>>>>  good");
+   $('#name').removeClass('.is-invalid');
+   $('#name').addClass('.is-valid');
+  }
+  else{
+   console.log(" not good");
+   $(this).removeClass('.is-valid');
+   $(this).addClass('.is-invalid')
+
+  }
+
+
 });
+
+
+ 
+ $("#contact-form").validate({
+  invalidHandler: function(event, validator) {
+    // 'this' refers to the form
+    var errors = validator.numberOfInvalids();
+    if (errors) {
+      var message = errors == 1
+        ? 'You missed 1 field. It has been highlighted'
+        : 'You missed ' + errors + ' fields. They have been highlighted';
+      $("div.error span").html(message);
+      $("div.error").show();
+    } else {
+      $("div.error").hide();
+    }
+  }
+});
+
+ 
+ 
+
+ 
+ 
+
+
+ 
+ 
+}) ;
 
 
 

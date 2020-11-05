@@ -114,13 +114,53 @@ header {
 
 /*End of  Header */
 
-/* Side navigation */
+/* Side newsfeed */
 
-.side-nav {
-  background-color: #264653;
+.newsfeed {
+  padding: 1em;
+  height: 80vh;
+  width: 30vh;
+  background: #08685c;
+  position: absolute;
+  float: left;
+  overflow-y: scroll;
+  bottom: 10px;
+  top: 120px;
+  left: 20px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-/* end of Side navigation */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.newsfeed::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .newsfeed {
+    padding: 1em;
+    height: 80vh;
+    width: 10vh;
+    background: #08685c;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@media only screen and (max-width: 1200) {
+  .newsfeed {
+    padding: 1em;
+    height: 60vh;
+    width: 100vh;
+    background: #08685c;
+    overflow-y: scroll;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+/* end of Side newsfeed */
 
 /* Mission */
 
@@ -254,8 +294,8 @@ header {
 .card-1,
 .card-2,
 .card-3 {
-  max-width: 75%;
-  min-width: 45%;
+  max-width: 400px;
+
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
     url(/images/pricing-card-bg.jpeg) no-repeat center center / cover;
   box-shadow: 7px 20px 50px rgba(0, 0, 0, 0.2);
@@ -342,6 +382,60 @@ header {
 }
 
 /* end of pricing */
+
+/* Contact */
+
+.contact {
+  background: linear-gradient(
+      76deg,
+      rgba(21, 31, 32, 1),
+      rgba(21, 31, 32, 0.9),
+      46%,
+      transparent 60%
+    ),
+    url(/images/form-img.jpeg) center center no-repeat;
+}
+
+.input {
+  background: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
+  transition: all 0.6s;
+}
+
+.input:focus {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: #eee;
+  border-bottom: 1px solid #e76f51;
+}
+
+.sub-btn {
+  color: white;
+  background: #f4a261;
+  width: 60%;
+  margin: auto;
+  border-radius: 2em;
+  transition: all 0.3s;
+}
+
+.sub-btn:hover {
+  color: rgb(34, 1, 1);
+  background: #e76f51;
+  width: 62%;
+  margin: auto;
+  border-radius: 2em;
+  transform: translateY(-2px);
+  box-shadow: none;
+}
+
+.label {
+  color: #777;
+  visibility: hidden;
+}
+/* end of contact */
 /* Footer */
 
 .footer-link {

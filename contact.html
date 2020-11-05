@@ -22,13 +22,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
-      integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
-      crossorigin="anonymous"
-    ></script> -->
-
     <!-- Montserrat font from Google fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
@@ -106,9 +99,68 @@
     </header>
     <!-- End of header -->
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-light">
       <!-- Contact -->
 
+      <section class="contact p-5 text-light">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-5 pb-5">
+              <h3 class="display-4 mb-5">Join us!</h3>
+
+              <form
+                id="contact-form"
+                action="#"
+                name="contact-form"
+                class="contact-form"
+                novalidate
+              >
+                <div class="input-group mb-5">
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="form-control p-2 input"
+                    id="name"
+                    class="name"
+                    name="name"
+                    required=""
+                    autocomplete="off"
+                  />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder="email"
+                    id="email"
+                    name="email"
+                    class="form-control p-2 input email"
+                    required=""
+                    autocomplete="off"
+                  />
+
+                  <div class="invalid-feedback">
+                    Please enter a valid email adress.
+                  </div>
+                </div>
+
+                <div class="form-group py-4 my-4">
+                  <input type="checkbox" checked class="" />
+                  <label for="check">Get notifications?</label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-block p-2 font-weight-bold text-uppercase sub-btn"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- end of contact -->
     </div>
 
@@ -262,6 +314,14 @@
     ></script>
 
     <!-- My custom js script -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+      integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
+
+    <script src="validation.js"></script>
   </body>
 </html>
