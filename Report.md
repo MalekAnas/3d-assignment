@@ -90,3 +90,6 @@ You have more control of the optimization you can do on your site to be easier t
 
 
 
+
+[Read more!](https://www.alphamindstudios.com/onsite-vs-offsite-seo/)
+
