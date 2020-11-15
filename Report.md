@@ -88,3 +88,5 @@ You have more control of the optimization you can do on your site to be easier t
 - ##### Be Indexable
   Sometimes search engines find that your site is preventing them from crawling. You can do everything else perfectly but if the search engines are unable to crawl   your site. To check on any problems, register your site with Google. Once registered, click on the “crawl” option and then click “fetch and render.” This will       result in letting you know that either your site was crawled successfully or that there is a problem to fix.
 
+
+
