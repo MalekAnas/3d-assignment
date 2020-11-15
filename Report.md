@@ -60,5 +60,28 @@ There are several ways in which you can build up external links. Here are the mo
 
 - ##### Accepting Guest Posts
   When you allow someone else to post on your blog, they will naturally mention the post on their blog and social media, giving you highly-rated links.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+What Is Onsite SEO?
+-------------------
+You have more control of the optimization you can do on your site to be easier to find.
+
+- ##### Title and Description
+  Besides using your main keyword your title and website description, optimize for length. Google sets the standards for indexing and prefers titles close to 60       characters in length and descriptions that are under 150 words.
+
+- ##### Images
+  Using alt text for all graphics on your site is a must. Try to include one of your keywords in the alt text and keep it short and to the point.
+
+- ##### Titles
+  Use only one H1 Title on a page, with a primary keyword included. Next, have several H2 and H3 headings on each page. In these, you can use your keywords to         increase the number of terms you are likely to show up for in searches.
+
+- ##### Internal Links
+  Try to include at least 1-3 links on each of your pages that send visitors to other pages on your website. This works well with a blog because you can direct       readers to related content, some that may have been written a year or more before.
+
+- ##### Update Regularly
+  Search engines love new content. Try updating your site regularly. This is easy to do with a blog but can also be managed with a bit of planning for the rest of     your site.
+
+- ##### Be Indexable
+  Sometimes search engines find that your site is preventing them from crawling. You can do everything else perfectly but if the search engines are unable to crawl   your site. To check on any problems, register your site with Google. Once registered, click on the “crawl” option and then click “fetch and render.” This will       result in letting you know that either your site was crawled successfully or that there is a problem to fix.
 
