@@ -1,4 +1,5 @@
 # What is responsive design?
+----------------------------
 
 First, here’s a quick explanation of responsive design and how it works. 
 Essentially, responsive design is a way to put together a website so that
@@ -40,6 +41,7 @@ Ease of management.
 -----------------------------------------------
 
 # What Is Offsite SEO?
+----------------------
 
 
 We’ll start our discussion with one major thing you can do offsite – link building. Link building is when links to your website are found elsewhere on the web. It is important to understand that while any link from a reputable source outside your site is good, you need to work at getting these naturally. The search engines also give more weight to certain kinds of links. For example, you can have your website listed on any number of index sites. You can also get a link when someone likes what you have written, and they mention your website on their site. The search engines will look at the two links and give greater points for the second because it was organic.
