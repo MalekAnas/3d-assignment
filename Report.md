@@ -1,5 +1,7 @@
-# What is responsive design?
+What is responsive design?
 ----------------------------
+
+
 
 First, here’s a quick explanation of responsive design and how it works. 
 Essentially, responsive design is a way to put together a website so that
@@ -38,9 +40,8 @@ Ease of management.
 
 
 
------------------------------------------------
-
-# What Is Offsite SEO?
+--------------------------------------------------------------------------------------
+What Is Offsite SEO?
 ----------------------
 
 
@@ -51,13 +52,13 @@ We’ll start our discussion with one major thing you can do offsite – link bu
 
 There are several ways in which you can build up external links. Here are the most valuable.
 
-- ###### Creating a Press Release
+- ##### Creating a Press Release
   Every time you add something spectacular to your site, send out a news release. Each news site that chooses to post your press release will give you a link back     to your site.
 
-- ###### Social Media Mentions
+- ##### Social Media Mentions
   When someone tweets something they found interesting on your site or posts a link on Facebook, search engines are happy. Pick two or three social media sites to  include in your regular marketing efforts.
 
-- ###### Accepting Guest Posts
+- ##### Accepting Guest Posts
   When you allow someone else to post on your blog, they will naturally mention the post on their blog and social media, giving you highly-rated links.
 
 
