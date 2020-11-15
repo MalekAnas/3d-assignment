@@ -39,6 +39,9 @@ Search engine optimization gains
 Ease of management.
 
 
+[Read more!](https://www.forbes.com/sites/brianrashid/2017/06/13/5-essential-reasons-and-benefits-why-you-should-be-using-a-responsive-website-design-now/?sh=3c98c19b17c9)
+
+
 
 --------------------------------------------------------------------------------------
 What Is Offsite SEO?
